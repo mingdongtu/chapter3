@@ -14,18 +14,19 @@
     background:#fff;
     position: relative;
 }
-.section_1>div,.section_1>img{
-   position:absolute;
-}
+
 .section_1>img{
+    position:absolute;
     left:53px;
-    top:23px;
+    top:50%;
+    margin-top:-20px;
     width:167px;
     height:40px;
 }
 .banner{
-    right:240px;
-    top:30px;
+    position:absolute;
+    top:50%;
+    transform: translate(500px,-50%);
     width:700px;
     float: left;
     font-size:0px;
@@ -43,14 +44,14 @@
 }
 
 .login{
+    position:absolute;
+    top:50%;
+    transform: translate(0,-50%);
     right:44px;
-    top:30px;
     color:#333;
 }
 .login>span{
      display:inline-block;
-     height:24px;
-     line-height:24px;
      font-size:20px;
 }
 .login>span:nth-of-type(1){
