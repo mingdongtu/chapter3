@@ -16,43 +16,42 @@
 }
 
 .section_1>img{
-    position:absolute;
-    left:53px;
-    top:50%;
-    margin-top:-20px;
-    width:167px;
-    height:40px;
+width:167px;
+height:40px;
+position:absolute;
+left:53px;
+top:50%;
+margin-top:-20px;
 }
 .banner{
-    position:absolute;
-    top:50%;
-    transform: translate(500px,-50%);
-    width:700px;
-    float: left;
-    font-size:0px;
+position:absolute;
+width:700px;
+top:50%;
+transform: translate(500px,-50%);
+font-size:0px;
 }
 .banner>span{
-    font-size:20px;
-    color:#333;
-    display:inline-block;
+font-size:20px;
+color:#333;
+display:inline-block;
 }
 .banner>span:nth-of-type(1){
-       margin-right:100px;
+margin-right:100px;
 }
 .banner>.child{
-      margin-right:80px;
+margin-right:80px;
 }
 
 .login{
-    position:absolute;
-    top:50%;
-    transform: translate(0,-50%);
-    right:44px;
-    color:#333;
+position:absolute;
+top:50%;
+transform:translate(0,-50%);
+right:44px;
+color:#333;
 }
 .login>span{
-     display:inline-block;
-     font-size:20px;
+display:inline-block;
+font-size:20px;
 }
 .login>span:nth-of-type(1){
     border-right:1px solid #333;
@@ -72,12 +71,12 @@
     background: url('../images/18.png') center center no-repeat;
 }
 .section_2_school{
-    position: absolute;
-    right:366px;
-    bottom:290px;
-      background: #D5432D;
-      width:320px;
-      height:56px;
+position: absolute;
+right:366px;
+bottom:290px;
+background: #D5432D;
+width:320px;
+height:56px;
 }
 .section_2>p{
       position: absolute;
@@ -94,8 +93,7 @@
     transform:translate(-50%,-50%);
     font-size:24px;
     color:#fff;
-    width:260px;
-    
+    width:260px;  
 }
 .section_2_school img{
      width:22px;
@@ -117,19 +115,21 @@
     font-size:0px;
     position: relative;
 }
+
 .section_3>img{
-    width:720px;
-    height:596px; 
-    display:inline-block; 
-    margin-right:60px;
+width:720px;
+height:596px; 
+display:inline-block; 
+margin-right:60px;
 }
+
 .section_3>div{
-    display:inline-block;
-    width:600px;
-    height:100%;
-    position: absolute;
-    top:60px;
-    /* right:60px; */
+/* display:inline-block; */
+width:600px;
+height:100%;
+position: absolute;
+top:60px;
+left:780px
 }
 .content {
     font-size:16px;
